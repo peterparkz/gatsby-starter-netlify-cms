@@ -66,6 +66,19 @@ module.exports = {
       },
     },
     {
+      
+      backend:
+  name: github
+  repo: peterparkz/gatsby-starter-netlify-cms
+  branch: master
+  site_domain: thelastofblog.netlify.app/
+
+publish_mode: editorial_workflow
+media_folder: 'static/assets/img'
+public_folder: 'assets/img'
+
+collections:
+ // your collection
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
